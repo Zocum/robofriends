@@ -4,6 +4,7 @@ import Searchbox from "../components/Searchbox"
 import Scroll from '../components/Scroll';
 import './index.css';
 import 'animate.css';
+import ErrorBoundary from "../components/ErrorBoundary";
 
 class App extends React.Component {
     constructor() {
@@ -37,7 +38,9 @@ class App extends React.Component {
                     <h1 className="f2 grow">RoboFriends</h1>
                     <Searchbox searchChange={this.onSearchChange}/>
                     <Scroll>
-                        <Cardlist robots={filteredRobots}/>
+                        <ErrorBoundary>
+                            <Cardlist robots={filteredRobots}/>
+                        </ErrorBoundary>
                     </Scroll>
                 </div>
             );
