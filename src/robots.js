@@ -1,45 +1,45 @@
 export const robots = [
   {
     id: 1,
-    name: 'Leanne Graham',
-    username: 'Bret',
-    email: 'Sincere@april.biz'
+    name: 'Johannes Kepler',
+    username: 'Jou',
+    email: 'Kepler@tuebingen.uni'
   },
   {
     id: 2,
-    name: 'Ervin Howell',
-    username: 'Antonette',
-    email: 'Shanna@melissa.tv'
+    name: 'John Snow',
+    username: 'Snow',
+    email: 'Snow@wall.north'
   },
   {
     id: 3,
-    name: 'Clementine Bauch',
-    username: 'Samantha',
-    email: 'Nathan@yesenia.net'
+    name: 'James Webb',
+    username: 'Webbo',
+    email: 'Lagrange@second.point'
   },
   {
     id: 4,
-    name: 'Patricia Lebsack',
-    username: 'Karianne',
-    email: 'Julianne.OConner@kory.org'
+    name: 'Ratchet',
+    username: 'Ra',
+    email: 'Ratchet&Clank@station.play'
   },
   {
     id: 5,
-    name: 'Chelsey Dietrich',
-    username: 'Kamren',
-    email: 'Lucio_Hettinger@annie.ca'
+    name: 'Neptune',
+    username: 'Far',
+    email: 'Not-a-planet@solar.system'
   },
   {
     id: 6,
-    name: 'Mrs. Dennis Schulist',
-    username: 'Leopoldo_Corkery',
-    email: 'Karley_Dach@jasper.info'
+    name: 'Mrs. Starship',
+    username: 'MK24',
+    email: 'Moon@mars.26'
   },
   {
     id: 7,
-    name: 'Kurtis Weissnat',
-    username: 'Elwyn.Skiles',
-    email: 'Telly.Hoeger@billy.biz'
+    name: 'Ms. Chicken',
+    username: 'Egg',
+    email: 'Treat-me@respect.with'
   },
   {
     id: 8,
